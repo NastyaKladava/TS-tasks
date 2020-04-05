@@ -1,0 +1,42 @@
+.main-form {
+    width: 550px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.top-part {
+    width: 550px;
+    height: 100px;
+    border-bottom: 2px solid black;
+    display: flex;
+}
+
+.time-one {
+    width: 150px;
+    height: 100px;
+    border-right: 2px solid black;
+}
+
+.content-one {
+    width: 400px;
+    height: 100px;
+}
+
+.bottom-part {
+    width: 550px;
+    height: 100px;
+    display: flex;
+}
+
+.time-two {
+    width: 150px;
+    height: 100px;
+    border-right: 2px solid black;
+}
+
+.content-two {
+    width: 400px;
+    height: 100px;
+}
+
