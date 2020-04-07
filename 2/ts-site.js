@@ -9,8 +9,8 @@ var arr = [
         message: 'Hello!' }
 ];
 mainForm.innerHTML = '';
-var i;
-for (i = 0; i < arr.length; i++) {
-    mainForm.innerHTML += "<div class=\"top-part\">\n        <div class=\"time-one\">" + arr[i].time + "</div>\n        <div class=\"content-one\">" + arr[i].name + " <br> " + arr[i].message + "</div>\n    </div>\n    ";
+for (var i = 0; i < arr.length; i++) {
+    mainForm.innerHTML +=
+        "<div class=\"cell\">\n        <div class=\"time\">" + arr[i].time + "</div>\n        <div class=\"content\">" + arr[i].name + " <br> " + arr[i].message + "</div>\n    </div>\n    ";
 }
 //# sourceMappingURL=ts-site.js.map
